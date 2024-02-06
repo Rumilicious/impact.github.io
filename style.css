@@ -1,0 +1,85 @@
+.navbar{
+    background: #008374;
+    position: sticky;
+    top: 0;
+}
+
+.clearfix{
+    background: #008374;
+    padding-bottom: 20px;
+}
+
+.fs-1{
+    color: white;
+    text-align: center;
+}
+
+.fs-6{
+    color: rgb(193, 245, 239);
+    text-align: center;
+}
+
+.button1{
+    background-color: #1a8f81;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 70px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 38px;
+    margin-left: 100px;
+  }
+
+  .button1:hover {
+    background-color: #1a8f81;
+    color: rgb(228, 240, 239);
+    border: none;
+  }
+
+  .button2{
+    background-color: #1a8f81;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 38px;
+    margin-bottom: 300px;
+  }
+
+  .button2:hover {
+    background-color: #1a8f81;
+    color: rgb(228, 240, 239);
+    border: none;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80px 200px;
+    gap: 10px;
+    background-color: #008374;
+    /* padding: 10px;
+    margin-bottom: 100px; */
+  }
+  
+  .grid-container > div {
+    background-color: #069685;
+    text-align: center;
+    gap: 50px;
+    /* padding: 180px; */
+    color: white;
+    font-size: 50px;
+    /* margin: 10px; */
+    /* border-radius: 100px; */
+  }
